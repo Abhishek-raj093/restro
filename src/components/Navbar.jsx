@@ -23,7 +23,7 @@ const Navbar = () => {
                 ))}
             </div>
 
-            <a href='#booking-process' className='hidden md:block bg-orange-600 text-white px-6 py-3 rounded-full transition'>
+            <a href='#booking-process' className='hidden md:block bg-orange-500 hover:bg-orange-600 text-white px-6 py-3 rounded-full transition'>
                 Book a Table
             </a>
 
@@ -38,7 +38,7 @@ const Navbar = () => {
       <div className={`flex flex-col items-center justify-center p-8 fixed inset-0 bg-white/70 backdrop-blue-md z-40 transform transition-transform duration-300 ${mobileOpen ? 'translate-x-0' : 'translate-x-full'}`}>
         <div className='flex flex-col items-center space-y-6 font-medium'>
             {navLinks.map((link)=>(
-                <a key={link.name} href={link.href} className='text-2xl text-zinc-800 hover:text-orange-500 transition'
+                <a key={link.name} href={link.href} className='text-2xl text-zinc-800 hover:text-orange-600 transition'
                 onClick={()=> setMobileOpen(false)}
                 >
                     {link.name}
