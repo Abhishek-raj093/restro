@@ -35,7 +35,7 @@ const FAQ = () => {
                                 </summary>
 
                                 {/* FAQ Answer */}
-                                <div className="px-4 pb-4 text-sm leading-relaxed ">
+                                <div className="px-4 pb-4 text-sm leading-relaxed text-zinc-600">
                                     {faq.answer}
                                 </div>
                             </details>
