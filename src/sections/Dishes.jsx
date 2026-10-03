@@ -17,7 +17,7 @@ const Dishes = () => {
         </Animated>
         <Animated>
             <h2 className='text-4xl md:text-5xl max-w-lg mx-auto text-balance'>
-                Discover Our Signature Dishes
+                Discover our signature dishes
             </h2>
         </Animated>
       </div>
